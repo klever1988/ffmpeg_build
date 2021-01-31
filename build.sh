@@ -29,3 +29,4 @@ make install
 # rename lib "" install/lib/*.a
 # rename .a .lib install/lib/*.a
 mv install/bin/*.lib install/lib/
+echo 'done'
