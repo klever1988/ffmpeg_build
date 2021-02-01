@@ -41,7 +41,7 @@ jobs:
         with:
           name: ffmpeg
       - name: Zip
-        run: 7z a ffmpeg.zip ffmpeg/
+        run: 7z a ffmpeg.zip */
       - name: Create Build Number
         id: buildnumber
         uses: einaregilsson/build-number@v1 
