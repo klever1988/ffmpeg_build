@@ -16,6 +16,8 @@ wget http://www.tortall.net/projects/yasm/releases/yasm-1.3.0-win64.exe -O /bin/
   --disable-devices \
   --disable-protocols \
   --disable-hwaccels \
+  --enable-nonfree \
+  --enable-libfdk-aac \
   --enable-protocol=file \
   --enable-small \
   --enable-w32threads \
